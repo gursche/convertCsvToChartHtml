@@ -2,7 +2,7 @@
 
 ## Beschreibung 
 ___
-liest CSV Dateien
+Erstellt Charts[^first] als HTML-Datei aus CSV-Dateien. Praktisch für monatliche Charts bei denen zusätzliche Daten (andere CSV) desselben Monats mit Vorjahresvergleich (nochmal andere CSV) verbunden werden sollen. Nur noch die Dateien auswählen und Charts im Browser anschauen.
 
 ![reads csv file](img/csvFile.png)
 
@@ -10,13 +10,13 @@ ergänzt mit Daten aus anderen csv Dateien
 
 ![adds optional data from csv](img/getOptionalCsvFile.png)
 
-erzeugt ein neues CSV mit ergänzten optionalen Daten und Charts[^first]  als HTML Datei
+erzeugt ein neues CSV mit ergänzten optionalen Daten und Charts   als HTML Datei
 
-[^first]: Footnote **chart.js**
-    powerd by https://www.chartjs.org/
-    wird für die Charts benötigt
 
 ![html exportet example](img/chart-html.png)
+* Installation folge [Setup](#1-setup)
+* Konfiguration folge [Konfiguration](#3-konfiguration)
+* Example Data folge [Setup](#12-starte-die-installation)
 
 ## 1. Setup
 ___
@@ -24,15 +24,12 @@ ___
 Python[^second] wird benötigt
 download aktuelle Version https://github.com/gursche/convertCsvToChartHtml
 
-[^second]: Footnote **python**
-    Für die aktuellste Python Version: https://www.python.org
-
-### 1.2 run zip
+### 1.2 Starte die Installation
 
 1.2.1. entpacke zip und starte in der Console
 
 ```sh
-    python python convertCsvToChartHtml-main
+    python convertCsvToChartHtml-main
 ```
 nach der Installation kann der Ordner convertCsvToChartHtml-main gelöscht werden.
 
@@ -192,3 +189,10 @@ initialCsvInfo={
 + Daten kommen ab Zeile 2
 + Seperatorzeichen: ,
 + columnDataWhereTf nur bei optionalCsvInfo in Verwendung
+
+[^first]: Footnote **chart.js**
+    powerd by https://www.chartjs.org/
+    wird für die Charts benötigt
+    
+[^second]: Footnote **python**
+    Für die aktuellste Python Version: https://www.python.org
