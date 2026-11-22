@@ -1,0 +1,39 @@
+Kundennummer;000000
+Kundenname;Mein Name
+ZP-Nummer;xxxxxxxxxxxxxxxxxxxxxxxxxx
+Beginn;01.09.2025
+Ende;30.09.2025
+Energierichtung;Verbrauch gemessen
+
+
+Datum;Zeit;kWh;Status
+01.09.2025;00:00;22,378;Viertelstunden kumuliert zu Tageswert
+02.09.2025;00:00;20,578;Viertelstunden kumuliert zu Tageswert
+03.09.2025;00:00;14,951;Viertelstunden kumuliert zu Tageswert
+04.09.2025;00:00;18,85;Viertelstunden kumuliert zu Tageswert
+05.09.2025;00:00;17,083;Viertelstunden kumuliert zu Tageswert
+06.09.2025;00:00;18,517;Viertelstunden kumuliert zu Tageswert
+07.09.2025;00:00;15,88;Viertelstunden kumuliert zu Tageswert
+08.09.2025;00:00;15,52;Viertelstunden kumuliert zu Tageswert
+09.09.2025;00:00;17,835;Viertelstunden kumuliert zu Tageswert
+10.09.2025;00:00;20,165;Viertelstunden kumuliert zu Tageswert
+11.09.2025;00:00;18,375;Viertelstunden kumuliert zu Tageswert
+12.09.2025;00:00;20,016;Viertelstunden kumuliert zu Tageswert
+13.09.2025;00:00;20,593;Viertelstunden kumuliert zu Tageswert
+14.09.2025;00:00;19,761;Viertelstunden kumuliert zu Tageswert
+15.09.2025;00:00;18,005;Viertelstunden kumuliert zu Tageswert
+16.09.2025;00:00;22,073;Viertelstunden kumuliert zu Tageswert
+17.09.2025;00:00;17,882;Viertelstunden kumuliert zu Tageswert
+18.09.2025;00:00;13,957;Viertelstunden kumuliert zu Tageswert
+19.09.2025;00:00;15,241;Viertelstunden kumuliert zu Tageswert
+20.09.2025;00:00;14,14;Viertelstunden kumuliert zu Tageswert
+21.09.2025;00:00;11,075;Viertelstunden kumuliert zu Tageswert
+22.09.2025;00:00;13,02;Viertelstunden kumuliert zu Tageswert
+23.09.2025;00:00;15,651;Viertelstunden kumuliert zu Tageswert
+24.09.2025;00:00;15,298;Viertelstunden kumuliert zu Tageswert
+25.09.2025;00:00;18,862;Viertelstunden kumuliert zu Tageswert
+26.09.2025;00:00;24,459;Viertelstunden kumuliert zu Tageswert
+27.09.2025;00:00;19,496;Viertelstunden kumuliert zu Tageswert
+28.09.2025;00:00;20,203;Viertelstunden kumuliert zu Tageswert
+29.09.2025;00:00;16,134;Viertelstunden kumuliert zu Tageswert
+30.09.2025;00:00;20,863;Viertelstunden kumuliert zu Tageswert

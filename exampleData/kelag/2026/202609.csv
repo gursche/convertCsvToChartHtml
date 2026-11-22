@@ -1,0 +1,39 @@
+Kundennummer;000000
+Kundenname;Mein Name
+ZP-Nummer;xxxxxxxxxxxxxxxxxxxxxxxxxx
+Beginn;01.09.2025
+Ende;30.09.2025
+Energierichtung;Verbrauch gemessenKundennummer;xxxxx
+
+
+Datum;Zeit;kWh;Status
+01.09.2026;00:00;6,681;Viertelstunden kumuliert zu Tageswert
+02.09.2026;00:00;5,415;Viertelstunden kumuliert zu Tageswert
+03.09.2026;00:00;5,495;Viertelstunden kumuliert zu Tageswert
+04.09.2026;00:00;4,452;Viertelstunden kumuliert zu Tageswert
+05.09.2026;00:00;6,081;Viertelstunden kumuliert zu Tageswert
+06.09.2026;00:00;3,884;Viertelstunden kumuliert zu Tageswert
+07.09.2026;00:00;2,803;Viertelstunden kumuliert zu Tageswert
+08.09.2026;00:00;3,791;Viertelstunden kumuliert zu Tageswert
+09.09.2026;00:00;9,107;Viertelstunden kumuliert zu Tageswert
+10.09.2026;00:00;12,445;Viertelstunden kumuliert zu Tageswert
+11.09.2026;00:00;13,008;Viertelstunden kumuliert zu Tageswert
+12.09.2026;00:00;9,158;Viertelstunden kumuliert zu Tageswert
+13.09.2026;00:00;8,637;Viertelstunden kumuliert zu Tageswert
+14.09.2026;00:00;7,626;Viertelstunden kumuliert zu Tageswert
+15.09.2026;00:00;5,913;Viertelstunden kumuliert zu Tageswert
+16.09.2026;00:00;5,416;Viertelstunden kumuliert zu Tageswert
+17.09.2026;00:00;16,494;Viertelstunden kumuliert zu Tageswert
+18.09.2026;00:00;8,361;Viertelstunden kumuliert zu Tageswert
+19.09.2026;00:00;9,655;Viertelstunden kumuliert zu Tageswert
+20.09.2026;00:00;6,185;Viertelstunden kumuliert zu Tageswert
+21.09.2026;00:00;8,854;Viertelstunden kumuliert zu Tageswert
+22.09.2026;00:00;7,968;Viertelstunden kumuliert zu Tageswert
+23.09.2026;00:00;7,644;Viertelstunden kumuliert zu Tageswert
+24.09.2026;00:00;10,292;Viertelstunden kumuliert zu Tageswert
+25.09.2026;00:00;8,899;Viertelstunden kumuliert zu Tageswert
+26.09.2026;00:00;5,697;Viertelstunden kumuliert zu Tageswert
+27.09.2026;00:00;6,122;Viertelstunden kumuliert zu Tageswert
+28.09.2026;00:00;7,328;Viertelstunden kumuliert zu Tageswert
+29.09.2026;00:00;7,086;Viertelstunden kumuliert zu Tageswert
+30.09.2026;00:00;8,886;Viertelstunden kumuliert zu Tageswert
