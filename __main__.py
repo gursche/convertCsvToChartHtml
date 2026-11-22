@@ -59,6 +59,9 @@ def main():
                             if path.startswith('exampleData/'):
                                 # data
                                 thisZip.extract(path)
+                    elif path.startswith('img'):
+                        # readme images
+                        thisZip.extract(path)
                     elif path == 'helper/ChartData.py':
                         # class file
                         thisZip.extract(path)
@@ -160,7 +163,7 @@ if you preffer the guided tour type: n
         print("""
 
 next step set default directories and values
-for rows and columns start with 0
+for rows and columns start counting with 0
 """) 
         dirDict={
             'initialDir': '',
