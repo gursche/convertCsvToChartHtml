@@ -16,6 +16,9 @@ erzeugt ein neues CSV mit ergänzten optionalen Daten und Charts   als HTML Date
 ![html exportet example](img/chart-html.png)
 * Installation folge [Setup](#1-setup)
 * Konfiguration folge [Konfiguration](#3-konfiguration)
+    * Datei ```convertCsvToChartHtml.py```: excutes step by step
+    * Datei ```chartsCfg.py```: Kofiguration der Charts
+    * Datei ```directories.py```: Kofiguration Ordner und CSV-Info 
 * Example Data folge [Setup](#12-starte-die-installation)
 
 ## 1. Setup
@@ -31,7 +34,7 @@ download aktuelle Version https://github.com/gursche/convertCsvToChartHtml
 ```sh
     python convertCsvToChartHtml-main
 ```
-nach der Installation kann der Ordner convertCsvToChartHtml-main gelöscht werden.
+nach der Installation kann der Ordner ```convertCsvToChartHtml-main``` gelöscht werden.
 
 1.2.2. **do you want to install example data?(y/n)**
 + y - installiert Beispieldaten und Konfiguration
@@ -49,18 +52,18 @@ nach der Installation kann der Ordner convertCsvToChartHtml-main gelöscht werde
 
         Ordner:
         
-            initialDir= Ordner der ersten CSV
+            initialDir=Ordner der ersten CSV
             optionalCsvDir=Ordner der zweiten CSV
             destinationDir=Ordner in dem gespeichert wird
 
         CSV Info:
 
-            seperator: welche(s) Zeichen trennt die Kolonnen
+            seperator: welche(s) Zeichen trennt die Spalten
             columnHeaderRow: in welcher Zeile befinden sich die Spaltenüberschriften
             columnDataFromRow: ab welcher Zeile befinden sich Daten
-            columnDataWhereTf: zweite(+) CSV, Kolonne der Daten
+            columnDataWhereTf: zweite(+) CSV, Spalte der Daten
 
-    ***beginne das Zählen der Zeilen und Kolonnen bei 0***
+    ***beginne das Zählen der Zeilen und Spalten bei 0***
     sind die Ordner nicht erreichbar, ist ein OS Fehler zu erwarten. 
 
 ## 2. Wie verwenden
@@ -83,16 +86,16 @@ ___
 #### 3.1.2.  Haupt CSV
 ```MyCharts.startImport(initialDir, destinationDir, initialCsvInfo)```
 die Hauptcsvdatei wird anhand der initialDir abgefragt, die destinationDir wird gesetzt und die initialCsvInfo übergeben.
++ Spalte 0 Datum
 + ab jetzt kann csv und html geschrieben werden
-+ Kolonne 0 Datum
 
 #### 3.1.3. Zusatz CSV
 ```MyCharts.addAditionalCsv(optionalCsvDir,header,optionalCsvInfo)```
-die Zusatzcsvdatei wird abgefragt, header ist der Name der neuen Kolonne, optionalCsvInfo wird übergeben
-+ ab jetzt kann csv und html geschrieben werden
+die Zusatzcsvdatei wird abgefragt, header ist der Name der neuen Spalte, optionalCsvInfo wird übergeben
 + auch hier Spalte 0 Datum
 + Datum wird kontrolliert, Tag und Monat müssen vorhanden sein
 + vergleich Monat mit Monat und Vorjahr
++ ab jetzt kann csv und html geschrieben werden
 
 ***3.1.4. Wiederholung für das Vorjahr
     siehe Punkt 3***
@@ -118,15 +121,15 @@ Konfigurationsdatei:
 
 #### 3.2.1. neue chart
 ```chart={ 'title':'PV Erzeugung',```
-hier geht es um Photovoltaik, mein Titel PV Erzeugung.
+hier geht es um Photovoltaik, mein Titel: PV Erzeugung.
 
-#### 3.2.2. Kolonnen wählen
-als Nächstes werden die sichtbaren Kolonnen definiert, siehe convertCsvToChartHtml 8. Spaltenüberschriften 
+#### 3.2.2. Spalten wählen
+als Nächstes werden die sichtbaren Spalten definiert, siehe 3.1.8 Spaltenüberschriften 
 ```
     'columns':[5,12,13,14,15,10,11,22],
 ```
-#### 3.2.3. KolonnenType zuweisen
-jede Kolonne **muss** einen typ haben: line oder bar
+#### 3.2.3. SpaltenType zuweisen
+jede Spalte **muss** einen typ haben: line oder bar
 ```
     'columnsType':['bar','line','line','line','line','line','line','line'],
 ```
@@ -185,8 +188,8 @@ initialCsvInfo={
     }
 ```
 + Zeile 0 hat keine Spaltenüberschrift
-+ Spaltenüberschrift in der Zeile 1
-+ Daten kommen ab Zeile 2
++ Zeile 1 Spaltenüberschriften 
++ Zeile 2 ab Zeile 2 sind Daten zu erwarten
 + Seperatorzeichen: ,
 + columnDataWhereTf nur bei optionalCsvInfo in Verwendung
 
